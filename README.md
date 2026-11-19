@@ -14,7 +14,7 @@ By the end, I had a verified environment, 6,000 real Wikipedia articles, a small
 
 ### What's in the repo
 
-- `scripts/verify_env.py` checks that the core libraries import (pandas, sentence-transformers, ChromaDB, spaCy), that the spaCy English model loads, and whether a CUDA GPU is available.
+- `scripts/verify_env.py` checks that the core libraries import (pandas, sentence-transformers,LangGraph, ChromaDB, spaCy), that the spaCy English model loads, and whether a CUDA GPU is available.
 - `scripts/download_data.py` streams 6,000 English Wikipedia articles into `data/raw/wiki_raw.jsonl`.
 - `src/preprocessing.py` holds the cleaning functions.
 - `tests/test_preprocessing.py` has 12 unit tests for those functions.
@@ -106,3 +106,4 @@ parallax-labs-internship/
 - `data/raw/` and `data/processed/` are git-ignored because the files are large (about 72 MB and 41 MB). Running steps 4 and 5 above recreates both.
 - Run the tests from the project root with `python -m pytest tests`, otherwise Python can't find the `src` folder.
 - `requirements.txt` has exact pinned versions, so installing from it gives you the same setup I used.
+- LangGraph is installed because the Week 1 task lists it; I don’t use it yet..
