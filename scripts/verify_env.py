@@ -18,10 +18,11 @@ def check_imports():
     import pandas
     import sentence_transformers
     import chromadb
+    import langgraph
     import spacy
 
     spacy.load("en_core_web_sm")
-    print("Imports OK: pandas, sentence-transformers, chromadb, spaCy")
+    print("Imports OK: pandas, sentence-transformers, chromadb, langgraph, spaCy")
 
 
 def main():
