@@ -1,0 +1,119 @@
+{
+  "summary": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "chunks_in_collection": 40825,
+    "top_k": 5,
+    "repeats_per_query": 5,
+    "hit_at_1": 9,
+    "hit_at_5": 10,
+    "queries": 10,
+    "mean_embed_ms": 10.6,
+    "mean_search_ms": 1.9,
+    "mean_total_ms": 12.5,
+    "slowest_total_ms": 14.7,
+    "exact_search_agreement": 1.0,
+    "memory_mb": 887
+  },
+  "queries": [
+    {
+      "question": "Who was the French sculptor known for The Thinker?",
+      "expected_title": "Auguste Rodin",
+      "rank_in_top_k": 1,
+      "top_result": "Auguste Rodin",
+      "best_distance": 0.288,
+      "embed_ms": 10.1,
+      "search_ms": 1.8,
+      "exact_agreement": 1.0
+    },
+    {
+      "question": "What is the largest artery in the human body?",
+      "expected_title": "Aorta",
+      "rank_in_top_k": 1,
+      "top_result": "Aorta",
+      "best_distance": 0.368,
+      "embed_ms": 11.3,
+      "search_ms": 1.8,
+      "exact_agreement": 1.0
+    },
+    {
+      "question": "What is the Arabic script and how is it written?",
+      "expected_title": "Arabic alphabet",
+      "rank_in_top_k": 1,
+      "top_result": "Arabic alphabet",
+      "best_distance": 0.278,
+      "embed_ms": 9.5,
+      "search_ms": 1.8,
+      "exact_agreement": 1.0
+    },
+    {
+      "question": "Which philosopher wrote Language, Truth and Logic?",
+      "expected_title": "A. J. Ayer",
+      "rank_in_top_k": 2,
+      "top_result": "Aristotle",
+      "best_distance": 0.459,
+      "embed_ms": 9.6,
+      "search_ms": 1.9,
+      "exact_agreement": 1.0
+    },
+    {
+      "question": "Who founded the Bavarian Illuminati?",
+      "expected_title": "Adam Weishaupt",
+      "rank_in_top_k": 1,
+      "top_result": "Adam Weishaupt",
+      "best_distance": 0.328,
+      "embed_ms": 12.7,
+      "search_ms": 2.0,
+      "exact_agreement": 1.0
+    },
+    {
+      "question": "What is the Accelerated Graphics Port interface used for?",
+      "expected_title": "Accelerated Graphics Port",
+      "rank_in_top_k": 1,
+      "top_result": "Accelerated Graphics Port",
+      "best_distance": 0.346,
+      "embed_ms": 10.7,
+      "search_ms": 1.9,
+      "exact_agreement": 1.0
+    },
+    {
+      "question": "Which American football team plays in Arizona?",
+      "expected_title": "Arizona Cardinals",
+      "rank_in_top_k": 1,
+      "top_result": "Arizona Cardinals",
+      "best_distance": 0.404,
+      "embed_ms": 10.7,
+      "search_ms": 1.9,
+      "exact_agreement": 1.0
+    },
+    {
+      "question": "What is Area 51 and where is it located?",
+      "expected_title": "Area 51",
+      "rank_in_top_k": 1,
+      "top_result": "Area 51",
+      "best_distance": 0.288,
+      "embed_ms": 11.9,
+      "search_ms": 1.9,
+      "exact_agreement": 1.0
+    },
+    {
+      "question": "How do plants respond to drought and salt stress?",
+      "expected_title": "Abiotic stress",
+      "rank_in_top_k": 1,
+      "top_result": "Abiotic stress",
+      "best_distance": 0.295,
+      "embed_ms": 9.9,
+      "search_ms": 1.8,
+      "exact_agreement": 1.0
+    },
+    {
+      "question": "Which astronomer tested general relativity during the 1919 solar eclipse?",
+      "expected_title": "Arthur Eddington",
+      "rank_in_top_k": 1,
+      "top_result": "Arthur Eddington",
+      "best_distance": 0.32,
+      "embed_ms": 10.0,
+      "search_ms": 1.9,
+      "exact_agreement": 1.0
+    }
+  ]
+}
